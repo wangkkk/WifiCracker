@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell.csproj": {}
+  },
+  "projects": {
+    "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\SimpleWifi\\SimpleWifi.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\SimpleWifi\\SimpleWifi.csproj",
+        "projectName": "SimpleWifi",
+        "projectPath": "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\SimpleWifi\\SimpleWifi.csproj",
+        "frameworks": {
+          "net40": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net40": {}
+      }
+    },
+    "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell.csproj",
+        "projectName": "WBTC.Library.WifiCrack.Shell",
+        "projectPath": "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell.csproj",
+        "packagesPath": "C:\\Users\\wang\\.nuget\\packages\\",
+        "outputPath": "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "targetAlias": "net462",
+            "projectReferences": {
+              "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\SimpleWifi\\SimpleWifi.csproj": {
+                "projectPath": "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\SimpleWifi\\SimpleWifi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "targetAlias": "net462",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

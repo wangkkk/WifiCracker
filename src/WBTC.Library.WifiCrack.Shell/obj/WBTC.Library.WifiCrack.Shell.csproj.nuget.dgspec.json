@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell.csproj": {}
+    "D:\\MyCode\\bitcoinrecover\\WifiCraker\\src\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell.csproj": {}
   },
   "projects": {
-    "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\SimpleWifi\\SimpleWifi.csproj": {
+    "D:\\MyCode\\bitcoinrecover\\WifiCraker\\src\\SimpleWifi\\SimpleWifi.csproj": {
       "restore": {
-        "projectUniqueName": "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\SimpleWifi\\SimpleWifi.csproj",
+        "projectUniqueName": "D:\\MyCode\\bitcoinrecover\\WifiCraker\\src\\SimpleWifi\\SimpleWifi.csproj",
         "projectName": "SimpleWifi",
-        "projectPath": "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\SimpleWifi\\SimpleWifi.csproj",
+        "projectPath": "D:\\MyCode\\bitcoinrecover\\WifiCraker\\src\\SimpleWifi\\SimpleWifi.csproj",
         "frameworks": {
           "net40": {
             "projectReferences": {}
@@ -19,14 +19,14 @@
         "net40": {}
       }
     },
-    "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell.csproj": {
+    "D:\\MyCode\\bitcoinrecover\\WifiCraker\\src\\WBTC.Library.Utils\\WBTC.Library.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell.csproj",
-        "projectName": "WBTC.Library.WifiCrack.Shell",
-        "projectPath": "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell.csproj",
+        "projectUniqueName": "D:\\MyCode\\bitcoinrecover\\WifiCraker\\src\\WBTC.Library.Utils\\WBTC.Library.Utils.csproj",
+        "projectName": "WBTC.Library.Utils",
+        "projectPath": "D:\\MyCode\\bitcoinrecover\\WifiCraker\\src\\WBTC.Library.Utils\\WBTC.Library.Utils.csproj",
         "packagesPath": "C:\\Users\\wang\\.nuget\\packages\\",
-        "outputPath": "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell\\obj\\",
+        "outputPath": "D:\\MyCode\\bitcoinrecover\\WifiCraker\\src\\WBTC.Library.Utils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,8 +43,60 @@
           "net462": {
             "targetAlias": "net462",
             "projectReferences": {
-              "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\SimpleWifi\\SimpleWifi.csproj": {
-                "projectPath": "E:\\BaiduNetdiskDownload\\Code\\WBTC.Library.WifiCrack.Shell\\SimpleWifi\\SimpleWifi.csproj"
+              "D:\\MyCode\\bitcoinrecover\\WifiCraker\\src\\SimpleWifi\\SimpleWifi.csproj": {
+                "projectPath": "D:\\MyCode\\bitcoinrecover\\WifiCraker\\src\\SimpleWifi\\SimpleWifi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "targetAlias": "net462",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyCode\\bitcoinrecover\\WifiCraker\\src\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyCode\\bitcoinrecover\\WifiCraker\\src\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell.csproj",
+        "projectName": "WBTC.Library.WifiCrack.Shell",
+        "projectPath": "D:\\MyCode\\bitcoinrecover\\WifiCraker\\src\\WBTC.Library.WifiCrack.Shell\\WBTC.Library.WifiCrack.Shell.csproj",
+        "packagesPath": "C:\\Users\\wang\\.nuget\\packages\\",
+        "outputPath": "D:\\MyCode\\bitcoinrecover\\WifiCraker\\src\\WBTC.Library.WifiCrack.Shell\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "targetAlias": "net462",
+            "projectReferences": {
+              "D:\\MyCode\\bitcoinrecover\\WifiCraker\\src\\SimpleWifi\\SimpleWifi.csproj": {
+                "projectPath": "D:\\MyCode\\bitcoinrecover\\WifiCraker\\src\\SimpleWifi\\SimpleWifi.csproj"
+              },
+              "D:\\MyCode\\bitcoinrecover\\WifiCraker\\src\\WBTC.Library.Utils\\WBTC.Library.Utils.csproj": {
+                "projectPath": "D:\\MyCode\\bitcoinrecover\\WifiCraker\\src\\WBTC.Library.Utils\\WBTC.Library.Utils.csproj"
               }
             }
           }

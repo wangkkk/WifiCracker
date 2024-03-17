@@ -8,5 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SimpleWifi\SimpleWifi.csproj" />
+    <ProjectReference Include="..\WBTC.Library.Utils\WBTC.Library.Utils.csproj" />
   </ItemGroup>
 </Project>

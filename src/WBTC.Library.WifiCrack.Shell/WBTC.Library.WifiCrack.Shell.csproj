@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net462</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleWifi\SimpleWifi.csproj" />
+    <ProjectReference Include="..\WBTC.Library.Utils\WBTC.Library.Utils.csproj" />
+  </ItemGroup>
+</Project>
